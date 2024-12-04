@@ -79,7 +79,7 @@ game. Conversely, if whenever a player has downloaded four viruses, they immedia
 have a game-over screen, but it must be clear that the program stopped because a player won the game, and it must indicate
 which player won.
 
-#Interactions
+# Interactions
 You interact with the system by issuing text-based commands. The following commands are to be supported:
 • move a <dir> moves the link a (where this can be any link one controls) in the direction dir, which can be any of
 up, down, left, right. The link a can be any value from a-g (or A-G for player 2).
@@ -96,7 +96,7 @@ is (0, 0). For example, to place a firewall directly below one of player 1’s s
 this section. This is to facilitate the construction of test cases.
 • quit or end-of-file (Ctrl-d) exits the game.
 
-Setup
+# Setup
 • -ability1 <order> specifies the abilities for player 1 (this is a list of the 5 abilities player 1 will use). If not
 specified, use the default set of abilities (Link boost, Firewall, Download, Scan, Polarize in that order). The abilities are
 given by a string consisting of the first letter of each ability. For example, the default order is -ability1 LFDSP.
