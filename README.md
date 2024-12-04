@@ -11,39 +11,16 @@ who placed the link knows whether it is data or a virus.
 Play then proceeds in turns. On each player’s turn, a player may use a single ability, and then must move one of their links
 in any cardinal direction.
 
-The display of the game: (in player 1's view)
-Text Display:
+# Display
+The text display and the graphical display of this game are both enabled
 
-Player 1:
-Downloaded: 0D, 0V
-Abilities: 5
-a: V1 b: D4 c: V3 d: V2
-e: D3 f: V4 g: D2 h: D1
-========
-abcSSfgh
-...de...
-........
-........
-........
-........
-...DE...
-ABCSSFGH
-========
-Player 2:
-Downloaded: 0D, 0V
-Abilities: 5
-A: ? B: ? C: ? D: ?
-E: ? F: ? G: ? H: ?
-
-Grphical display is also enabled.
-
-#Link:
+# Link:
 There are two kinds of links: data, and viruses. If at any point a player has downloaded four data, they win the game.
 Conversely, if they have downloaded four viruses, they lose the game. In addition to being viruses or data, links have a
 strength between 1 and 4, with 1 being the weakest and 4 being the strongest. Initially, players are given viruses and data of
 each possible strength, for a total of 8 links.
 
-#Movement, Battle, and Capture:
+# Movement, Battle, and Capture:
 Each turn a player must move a single link they control one space in a cardinal direction. (There is a “global compass”, so
 north is the same direction for both players.) This movement is subject to a few conditions:
 • One cannot move a link on top of another link one controls (but can on top of an opponent’s link; see below).
@@ -58,7 +35,7 @@ the battle, the winner downloads the link of the loser.
 After moving one link, one’s turn ends. This is the only way a turn can be ended. Downloading a link must update the
 appropriate counters. It is up to you as to whether or not the link’s value is revealed.
 
-#Abilities:
+# Abilities:
     In addition to the basic movements, each player has a set of five ability cards available to them at the start of the game. Each
 card can only be used once per game; however, players select which cards they wish to use, and can take up to 2 of each kind.
 For example, player 1 may decide to start the game with two copies of the card Firewall, two copies of the card Download,
@@ -96,7 +73,7 @@ downloaded, this ability fails as well). After the trading, the link name doesn�
 the value and the type will change to the opponent’s link, same applies to the opponent’s
 link.
 
-#Winning and Losing
+# Winning and Losing
 When a player has downloaded four data, regardless of their strength or who they belonged to originally, the player wins the
 game. Conversely, if whenever a player has downloaded four viruses, they immediately lose the game. Your program need not
 have a game-over screen, but it must be clear that the program stopped because a player won the game, and it must indicate
