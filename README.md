@@ -36,7 +36,7 @@ After moving one link, one’s turn ends. This is the only way a turn can be end
 appropriate counters. It is up to you as to whether or not the link’s value is revealed.
 
 # Abilities:
-    In addition to the basic movements, each player has a set of five ability cards available to them at the start of the game. Each
+In addition to the basic movements, each player has a set of five ability cards available to them at the start of the game. Each
 card can only be used once per game; however, players select which cards they wish to use, and can take up to 2 of each kind.
 For example, player 1 may decide to start the game with two copies of the card Firewall, two copies of the card Download,
 and one copy of the card Polarize. In this case, player 1 would be able to download two of player 2’s links, by using both their
